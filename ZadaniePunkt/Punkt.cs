@@ -13,14 +13,14 @@ namespace ZadaniePunkt
         
 
         public int Y { get; private set; }// właściwość 2
-       
 
+        public static int Licznik { get; private set; }
 
         public Punkt(int wspx, int wspy) //konstruktor
         {
             X = wspx;
             Y = wspy;
-
+            Licznik++;
         }
 
         public void Prawo(int ileP) //metoda 1
@@ -78,6 +78,7 @@ namespace ZadaniePunkt
             
             return p1*mnoznik;
         }
+        
     }
 
 }

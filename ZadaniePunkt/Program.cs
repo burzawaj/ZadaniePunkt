@@ -17,7 +17,7 @@ namespace ZadaniePunkt
             string y1;
             int y2;
 
-            Punkt punkt1 = new Punkt(1, 1);
+            /*Punkt punkt1 = new Punkt(1, 1);
             Punkt punkt2 = new Punkt(2, 2);
             Punkt punkt3 = punkt1 + punkt2;
 
@@ -27,7 +27,13 @@ namespace ZadaniePunkt
             Punkt punkt5 = punkt1 * 2;
             punkt5.Wyswietl();
             Punkt punkt6 = 2*punkt1;
-            punkt6.Wyswietl();
+            punkt6.Wyswietl();*/
+
+            for (int i = 0; i < 11; i++)
+            {
+                Punkt punkt = new Punkt(i, i);
+            }
+            Console.WriteLine(Punkt.Licznik);
 
             Console.ReadLine();
             
